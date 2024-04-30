@@ -15,7 +15,7 @@ const About = () => {
             <h3>Atuo na area a mais de 1 anos desenvolvendo aplicações web com React, JS, TS, CSS, Boostrap e outros...</h3>
             <p>Formado em tecnico em informatica pelo CIMOL, aonde descobri o gosto pela area de DEV</p>
             <p>Parte da minha vida profissional atuei com bordados eletrônicos. Entretanto, encontrei minha verdadeira paixão na programação, área que, inclusive, já estudei academicamente e também em formações complementares. </p>
-            <h3>Busca uma aplicação para sua empresa ou Negocio? Eu te ajudar!</h3>
+            <h3>Busca uma aplicação para sua Empresa ou Negocio? Eu te posso ajudar!</h3>
         </div>
     </div>
           </motion.div>
