@@ -1,0 +1,41 @@
+.about{
+    color:white;
+    text-align: left;
+    display: flex;
+    margin-top: 27vh;
+    min-height: 60vh;
+}
+.about img{
+width: 70vh;
+height: auto;
+border-radius: 35px;
+margin-left: 3vw;
+}
+.texto{
+   width: 50vw;
+   margin-left: 5vw;
+   margin-top: 1vh;
+    }
+
+    @media (max-width: 760px) {
+        .about{
+            color:white;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 8vh;
+            min-height: 50vh;
+        }
+        .about img{
+        width: 40vh;
+        height: auto;
+        border-radius: 25px;
+        margin-left: 0;
+        }
+        .texto{
+           width: 70vw;
+           margin-left: 0;
+           margin-top: 0;
+            }
+    }

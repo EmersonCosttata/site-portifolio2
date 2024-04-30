@@ -1,0 +1,29 @@
+.proj{
+    text-align: center;
+    margin-top: 7vh;
+    min-height: 100vh;
+}
+
+.projeto{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 760px) {
+    .proj{
+        text-align: center;
+        margin-top: 5vh;
+        min-height: 90vh;
+    }
+    
+    .projeto{
+        margin-top: 3vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+}

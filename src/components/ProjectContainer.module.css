@@ -1,0 +1,43 @@
+.container{
+  
+    display:  flex;
+    flex-direction: column;
+    margin: 2vw;
+}
+
+.container h3{
+margin-top: 5vh;
+}
+
+.container p{
+    word-break: break-all;
+}
+
+
+.container img{
+    height: 18vw;
+    border-radius: 2vh;
+}
+
+@media (max-width: 760px) {
+    .container{
+        display:  flex;
+        flex-direction: column;
+        margin: 1vw;
+    }
+    .container h3{
+        margin-top: 3vh;
+        }
+
+        
+.container p{
+    word-break:normal;
+}
+
+
+.container img{
+    height: 30vw;
+    border-radius: 1vh;
+}
+}
+

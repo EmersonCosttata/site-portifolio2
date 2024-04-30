@@ -1,0 +1,20 @@
+.skills{
+    text-align: center;
+    margin-top: 7vh;
+    min-height: 100vh;
+}
+
+.skills_contens{
+    margin-top: 7vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 760px) {
+    .skills{
+        text-align: center;
+        margin-top: 7vh;
+        min-height: 75vh;
+    }
+}

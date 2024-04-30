@@ -1,0 +1,40 @@
+
+@keyframes span {
+    0%{
+     opacity: 0;
+    }
+    100%{
+ 
+     opacity: 1;
+    } 
+ } 
+
+
+.footer{
+display: flex;
+flex-direction: column;
+background-color: rgba(240, 248, 255, 0.178);
+animation: span 1s;
+bottom: 0;
+width: 100%;
+}
+
+.footer p{
+ margin-top: 1.5vh;
+ margin-bottom: 1vh;
+}
+.footer p:hover{
+  color: rgba(21, 70, 99, 0.452);
+  transition: 300ms;
+  }
+ .footer img{
+    height: 4vh;
+    margin: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+ }
+
+ .footer img:hover{
+   height: 5vh;
+   transition: 300ms;
+}

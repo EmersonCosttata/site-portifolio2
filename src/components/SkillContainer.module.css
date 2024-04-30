@@ -1,0 +1,44 @@
+.container{
+  
+    display:  flex;
+    flex-direction: column;
+    margin: 2vw;
+}
+
+.container h4{
+margin-top: 5vh;
+}
+
+.container img{
+    height: 12vw;
+    animation: spin 4s infinite;
+}
+
+
+@keyframes spin {
+    0% { 
+        transform: rotate(0deg);; 
+    } 
+    100% { 
+        transform: rotate(360deg); 
+    }
+}
+
+@media (max-width: 760px) {
+    .container{
+        display:  flex;
+        flex-direction: column;
+        margin: 1.5vw;
+    }
+
+    .container h4{
+        margin-top: 4vh;
+        }
+
+        .container img{
+            height: 19vw;
+            animation: spin 4s infinite;
+        }
+        
+        
+}

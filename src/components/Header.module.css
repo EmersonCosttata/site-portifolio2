@@ -1,0 +1,76 @@
+@keyframes span {
+    0%{
+     opacity: 0;
+    }
+    100%{
+ 
+     opacity: 1;
+    } 
+ } 
+
+.header{
+max-width: 100%;
+margin-top: 2.5vh;
+display: flex;
+justify-content:center ;
+animation: span 1s;
+
+}
+
+.logo{
+color: white;
+text-decoration: none; 
+}
+
+.logo a{
+
+    color: white;
+    text-decoration: none; 
+    }
+
+.logo:hover{
+    transition: 300ms;
+    color: rgb(34, 126, 138);
+    }
+
+.nav{
+display: flex;
+padding-left: 79vh;
+}
+
+.nav a{
+    margin: 3px 9px 3px;
+    margin-top: 2vh; 
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover{
+    transition: 300ms;
+    color: rgb(34, 126, 138);
+}
+
+@media (max-width: 760px) {
+    .header{
+        max-width: 100%;
+        margin-top: 2.5vh;
+        display: flex;
+        align-items: center;
+        }
+        .nav{
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            }
+            .nav a{
+                margin: 2px 7px 3px;
+                margin-top: 1.4vh; 
+                text-decoration: none;
+                color: white;
+            }
+ 
+            .logo{
+                margin-left: -1%;
+                }
+ 
+  }

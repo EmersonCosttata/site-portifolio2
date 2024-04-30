@@ -1,0 +1,53 @@
+.home{
+    width: 90vh;
+    min-height: 70vh;
+    display: flex;
+    margin-left: 28.5vh;
+    margin-top: 22vh;
+}
+
+.soueu{
+    color: white;
+    text-align: left;
+}
+
+.soueu img{
+   height: 5vh;
+   margin-right: 2vh;
+   margin-top: 2vh;
+}
+
+.soueu img:hover{
+    background-color: rgba(0, 0, 0, 0.527);
+    transition: 300ms;
+ }
+
+ .soueu button{
+    display: flex;
+    color: white;
+    padding: 1.5vh 5vh 1.5vh 5vh;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-radius: 18px;
+    background-color: rgba(26, 104, 177, 0.767);
+    border: 3px;
+    margin-top: 2vh;
+ }
+ .soueu button:hover{
+    background-color: rgb(68, 143, 214);
+    transition: 300ms;
+ }
+ 
+ 
+ @media (max-width: 760px) {
+  
+   .home{
+      width: 40vh;
+      height: 100%;
+      display: flex;
+      margin-left: 20px;
+      margin-top: 25%;
+  }
+
+
+ }
